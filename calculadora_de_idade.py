@@ -1,0 +1,5 @@
+print("CALCULADORA DE IDADE: ")
+ano_niv = input("coloque o seu ano de nascimento: ")
+ano_atual = input("coloque o ano atual: ")
+idade = int(ano_atual) - int(ano_niv)
+print("sua idade é: " + str(idade))
